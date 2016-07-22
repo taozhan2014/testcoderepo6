@@ -1,0 +1,38 @@
+{
+  "uri" : "local://8OpKRvY59jBYZqr1lLe7Y9/",
+  "name" : "Configuration",
+  "category" : ".config",
+  "parent" : "local://oJ2flrrcVI9-jalayflCX4/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_config_configure",
+    "expr" : {
+      "json" : {
+        "dataFolderUri" : "/cjsapptest/testdatarepo1/01LwwAkZssBLEq70licLnE/"
+      },
+      "type" : "JSON"
+    }
+  }, {
+    "name" : "_config_customDomain",
+    "expr" : {
+      "json" : [ "common.yoke.io" ],
+      "type" : "JSON"
+    }
+  }, {
+    "name" : "config",
+    "expr" : {
+      "concept" : "/common/core/AEgtmCtl72A3B4UwaLsGMC/",
+      "bindings" : {
+        "configure" : "_config_configure",
+        "customDomain" : "_config_customDomain"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "config"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
